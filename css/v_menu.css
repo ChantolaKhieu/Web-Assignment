@@ -1,0 +1,15 @@
+table,th{
+    border: 1px solid gray;
+    width: 200pt;
+    height: 50pt;
+     border-collapse: collapse;
+}
+td{
+    width: 200pt;
+    height: 50pt;
+    background-color: whitesmoke;
+   
+}
+th{
+    background-color: greenyellow;
+}

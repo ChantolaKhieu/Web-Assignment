@@ -1,0 +1,38 @@
+form{
+    width: 100%;
+}
+.name{
+    border: 1px solid #ced4da; 
+    display: block;
+    width: 500pt;
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px;
+    height: 20px;
+}
+.subject{
+    width: 500pt;
+    height: 200pt;
+    border: 1px solid #ced4da; 
+    border-radius: 5px;
+}
+.btn{
+  width: 60pt;
+  height: 30pt;
+  background-color: #008000;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  color: white;
+}
+.all{
+    background-color: whitesmoke;
+    width: 60%;
+    height: auto;
+}
+.text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.padding{
+    padding: 20pt;
+
+}

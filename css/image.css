@@ -1,0 +1,38 @@
+.Image{
+    position: relative;
+}
+.topleft{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 18px;
+}
+.topright{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 18px;
+}
+.bottomleft{
+    position: absolute;
+    bottom: 32px;
+    left: 16px;
+    font-size: 18px;
+}
+.bottomright{
+    position: absolute;
+    bottom: 32px;
+    right: 16px;
+    font-size: 18px;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
