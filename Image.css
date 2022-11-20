@@ -1,0 +1,18 @@
+.headtxt{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 530px){
+    .gallery {
+        display: grid;
+        gap: 5px;
+    }
+    .image{
+        grid-row: 1 / span 1;
+    }
+}
