@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number to word</title>
+</head>
+
+<body>
+    <br><br>
+    <h1>NUMBER TO WORDS</h1>
+    <input type="5ber" id="nm1" placeholder="number"><br><br>
+    <input type="button" value="To Words" id="optin" onclick="pldstrng()">
+    <p id="value" style="color: blueviolet;"></p>
+
+    <script>
+        function pldstrng() {
+            var k = document.getElementById("nm1").value
+            var a = String(k)
+            for (let i = 0; i < a.length; i++) {
+                switch (a[i]) {
+                    case "1":
+                        document.getElementById("value").innerHTML+="one"+" " 
+                        break
+                    case "2":
+                        document.getElementById("value").innerHTML+="two"+" "
+                        break
+                    case "3":
+                        document.getElementById("value").innerHTML+="three"+" "
+                        break
+                    case "4":
+                        document.getElementById("value").innerHTML+="four"+" "
+                        break
+                    case "5":
+                        document.getElementById("value").innerHTML+="five"+" "
+                        break
+                    case "6":
+                        document.getElementById("value").innerHTML+="six"+" "
+                        break
+                    case "7":
+                        document.getElementById("value").innerHTML+="siven"+" "
+                        break
+                    case "8":
+                        document.getElementById("value").innerHTML+="eight"+" "
+                        break
+                    case "9":
+                        document.getElementById("value").innerHTML+="nine"+" "
+                        break
+                    case "0":
+                        document.getElementById("value").innerHTML+="zero"+" "
+                        break
+                    default :
+                        document.getElementById("value").innerHTML="enter a number / digit"+" "    
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
