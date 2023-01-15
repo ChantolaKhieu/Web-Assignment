@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'><link rel='stylesheet' href='https://dl.dropboxusercontent.com/u/69747888/MoGo%20carousel/font-awesome.min.css'><link rel="stylesheet" href="./Homepage.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <header class="main-header">
+    <div class="header-wrapper">
+      <div class="main-logo">Pixels</div>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="#section-2">Home</a></li>
+          <li><a href="#section-7">Explore</a></li>
+          <li><a href="#section-9">Favorite</a></li>
+          <li><a href="#main-footer">Account</a></li>
+          <li><a href="#"><span class="fa fa-shopping-cart"></span></a></li>
+          <li><a href="#"><span class="fa fa-search"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="section-1">
+    
+    </section>
+  </section>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://use.fontawesome.com/8ae46bccf5.js'></script><script  src="./account.js"></script>
+
+</body>
+</html>
